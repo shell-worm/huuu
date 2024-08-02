@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta charset="UTF-8">
+		<title>First anniversary of love</title>
+		<link rel="stylesheet" type="text/css" href="./css/format.css">
+	</head>
+
+	<body style="margin:0px">
+		<audio autoplay loop>
+			<source src="music/music.mp3" type="audio/mpeg">
+			Your browser does not support the audio.
+		</audio>
+		<canvas></canvas>
+		<div id="imgTxt">
+			<span id="Txt"></span> <br />
+			<span id="tmp"></span>
+			<img id="img" src="">
+		</div>
+		<div id="heartTxt">
+			<span id="clickMe">Click!</span>
+			<div id="heart">
+				<button id="button" onclick="play()"></button>
+			</div>
+		</div>
+		<div id="content">
+			<h2 id="together">We have been together</h2>
+			<div id="timer">
+				<b id="d"></b> Days 
+				<b id="h"></b> Hours
+				<b id="m"></b> Minutes
+				<b id="s"></b> Seconds
+			</div>
+		</div>
+
+    	<div id = "typeDiv">
+        	<span id="txt1"></span> <br />
+        	<span id="txt2"></span>
+    	</div>		
+
+		<script >
+			var ok = 0;
+			var flag = 1;
+			var myImage = document.getElementById("img");
+			var myTxt = document.getElementById("Txt");
+			var imageArray = ["pic/pic1.png", "pic/pic2.png", "pic/pic3.png", "pic/pic4.png", "pic/pic5.png", "pic/pic6.png", 
+			"pic/pic7.png", "pic/pic8.png", "pic/pic9.png", "pic/pic10.png", "pic/pic11.png", "pic/pic12.png", "pic/pic13.png",
+			"pic/pic14.png", "pic/pic15.png", "pic/pic16.png"];
+			var imageIndex = 0;
+			var txtArray = ["hello babe chanmyae ", "i know we been tired today is 1augest on gf day eheh，u are the best man i will sent this to u wjen we ani，babe yal", "a yan chit tal enjoy our pic(｡･ω･｡)ﾉ♡",
+			 "i will always be like this to u", "im sorry i make u cry，but in behind im just a boy who wanna see u happy，arrwa~o(≧v≦)o", "chittal，babe take care naw from one year 11months babe ehhehe omg 2years eeh(/ω＼)",
+			 "im so happy rn cuz we don't fight anymore today is augest1 ehehhe i will surprise u with this", "but now happy eith video u won't know，babe ki really love u let stay like this forever(･∀･)", "i do this even tho im not free", "this tooke me 5day to make cuz ", 
+			 "ko really want to give u greate gift~", "说，arrrwrr my beautiful babe on gf day and one year11months٩(๑òωó๑)۶", "don't be sick dumbo", "i have smth to say，it.~", "it...，u are sticky ehehhehehehe mwah call me babe"];
+			 var len = imageArray.length;
+			var t = 0;
+		</script>
+		
+		<script type="text/javascript" src="./js/stars.js"></script>
+		<script type="text/javascript" src="./js/typeWriter.js"></script>
+		<script type="text/javascript" src="./js/date.js"></script>
+		<script type="text/javascript" src="./js/playImg.js"></script>
+	</body>
+</html>
